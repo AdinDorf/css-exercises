@@ -24,3 +24,27 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px
+}
+
+.left-links, .right-links
+{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.footer{
+  background-color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+} 
