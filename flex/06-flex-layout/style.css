@@ -29,18 +29,27 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px
+  padding: 0px;
+  margin: 0px;
+  
 }
 
 .left-links, .right-links
 {
   display: flex;
-  gap: 10px;
+  gap: 16px;
+  padding: 10px;
   justify-content: space-between;
   list-style-type: none;
 }
 
 .footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: auto;
+
   background-color: #eeeeee;
 }
 
